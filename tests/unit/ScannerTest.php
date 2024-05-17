@@ -1,5 +1,4 @@
-<?php
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 namespace unit;
 
@@ -8,7 +7,7 @@ require 'Scanner.php';
 use PHPUnit\Framework\TestCase;
 use Scanner;
 
-class ScannerTests extends TestCase
+final class ScannerTest extends TestCase
 {
     public function test_total_price_with_special_discount(): void
     {
